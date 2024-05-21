@@ -88,12 +88,10 @@ galleryElem.addEventListener('click', event => {
   event.preventDefault();
 
   if (event.target.nodeName == 'IMG') {
-
     const modal = basicLightbox.create(
       `<img class="modal__img" src="${event.target.dataset.source}" alt="${event.target.alt}">`
     );
 
     modal.show();
   }
-
 });
