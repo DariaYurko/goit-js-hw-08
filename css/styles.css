@@ -33,7 +33,6 @@ img {
 }
 
 .gallery {
-   height: 100%;
    display: flex;
    flex-wrap: wrap;
    gap: 48px 24px;
